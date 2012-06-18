@@ -1,7 +1,26 @@
-// Place all the styles related to the Books controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "colors";
 
-table.book {}
-table.book td.title { $magenta }
-table.book td { padding-right: 20px; }
+
+/* if in a list, one line, no description. */
+.book-list {
+  .title {
+    display: inline;
+  }
+  .author {
+    display: inline;
+  }
+  .description {
+    display: none;
+  }
+}
+
+.book {
+  padding-bottom: 10px;
+  .title { 
+    color: $magenta;
+    font-size: 1.4em;
+  }
+  .description {
+    clear: left;
+  }
+}

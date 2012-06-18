@@ -1,4 +1,4 @@
-%tr
-  %td.title= book.title
-  %td= book.author
-  %td= link_to 'Show', book
+.book
+  .title= link_to book.title, book
+  .author= "by #{book.author}"
+  .description= book.description

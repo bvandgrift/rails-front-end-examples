@@ -1,13 +1,6 @@
 %h1 My Books
 
-%table
-  %tr
-    %th Title
-    %th Author
-
+.book-list
   = render @books
 
 %br
-
-= link_to "Add a book", new_book_path
-
