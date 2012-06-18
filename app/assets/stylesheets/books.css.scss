@@ -1,0 +1,7 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table.book {}
+table.book td.title { $magenta }
+table.book td { padding-right: 20px; }

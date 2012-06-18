@@ -1,0 +1,13 @@
+%h1 My Books
+
+%table
+  %tr
+    %th Title
+    %th Author
+
+  = render @books
+
+%br
+
+= link_to "Add a book", new_book_path
+
